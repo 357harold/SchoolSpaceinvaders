@@ -1,0 +1,77 @@
+body{
+    background-image:url(download2.jpg);
+    color: darkkhaki;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#text{
+    text-decoration-color: cadetblue;
+    
+}
+#bal{
+    height: 200px;
+    width: 250px;
+    background-image: url(foto.png);
+    background-position: center;  
+    position: relative;
+    display: inline-block;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 8s;
+    animation-name: example;
+    animation-iteration-count: infinite;
+    animation-duration: 40s;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+@-webkit-keyframes example {
+    0%   {left: 148px; top:650px;}
+    25%  {left:569px; top:330px;}
+    50%  {left:300px; top:134px;}
+    75%  {left:168px; top:497px;}
+    90% {left:30px; top:294px;}
+    100%   {left:100px; top:600px;}
+}
+@-webkit-keyframes example2 {
+    0%   {left: 748px; top:250px;}
+    25%  {left:569px; top:730px;}
+    50%  {left:900px; top:334px;}
+    75%  {left:768px; top:497px;}
+    90% {left:430px; top:294px;}
+    100%   {left:40px; top:100px;}
+}
+@-webkit-keyframes example3 {
+    0%   {left: 48px; top:250px;}
+    25%  {left:469px; top:530px;}
+    50%  {left:900px; top:134px;}
+    75%  {left:368px; top:497px;}
+    90% {left:30px; top:294px;}
+    100%   {left:300px; top:100px;}
+}
+@-webkit-keyframes example4 {
+    0%   {left: 448px; top:950px;}
+    25%  {left:469px; top:230px;}
+    50%  {left:890px; top:434px;}
+    75%  {left:68px; top:97px;}
+    90% {left:30px; top:394px;}
+    100%   {left:3570px; top:500px;}
+}
+#balbox{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+        }
+#Kanonbox{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+        }
+#Kanon{
+    position: relative;
+    width: 1200px;
+    height: 1206px;
+    bottom: 20px;
+        }
